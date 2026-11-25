@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="932" viewBox="0 0 430 932" fill="none">
+  <defs>
+    <linearGradient id="base" x1="34" y1="0" x2="382" y2="932" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101B2F"/>
+      <stop offset=".48" stop-color="#16243B"/>
+      <stop offset="1" stop-color="#101A2D"/>
+    </linearGradient>
+    <radialGradient id="glowTop" cx="0" cy="0" r="1" gradientTransform="matrix(-299 310 -342 -330 392 21)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C78B8" stop-opacity=".42"/>
+      <stop offset=".46" stop-color="#345582" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#1A2A43" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottom" cx="0" cy="0" r="1" gradientTransform="matrix(243 -246 264 260 4 932)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A629A" stop-opacity=".29"/>
+      <stop offset="1" stop-color="#1A2A43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="77" y1="132" x2="395" y2="474" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#88B7FF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#88B7FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lowerSweep" x1="-5" y1="678" x2="298" y2="917" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5D8FD0" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#5D8FD0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="430" height="932" fill="url(#base)"/>
+  <rect width="430" height="932" fill="url(#glowTop)"/>
+  <rect width="430" height="932" fill="url(#glowBottom)"/>
+
+  <!-- Broad, quiet light forms leave the middle clear for readable content. -->
+  <path d="M258 -80C322 7 444 25 506 118C563 203 489 307 408 348C340 382 263 340 220 279C165 202 162 80 190 -11L258 -80Z" fill="url(#sweep)"/>
+  <path d="M-102 717C-23 650 65 652 119 710C177 772 181 872 127 970H-70L-102 717Z" fill="url(#lowerSweep)"/>
+
+  <!-- Fine orbital contours add depth without competing with foreground UI. -->
+  <path d="M258 -46C310 17 405 34 455 105" stroke="#A9C9F6" stroke-opacity=".10" stroke-width="1.2"/>
+  <path d="M235 -20C291 48 387 67 432 134" stroke="#A9C9F6" stroke-opacity=".065" stroke-width="1"/>
+  <path d="M-23 759C44 720 104 739 136 792" stroke="#A9C9F6" stroke-opacity=".075" stroke-width="1"/>
+</svg>
